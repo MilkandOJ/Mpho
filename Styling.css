@@ -1,0 +1,219 @@
+
+h2{	
+	position: absolute;
+	color: #9c6700;
+	font-size: 10px;
+	margin-left: 0px;
+	top: 30px;
+
+}
+.fa {
+	width: 15px;
+	height: 20px;
+}
+
+.text{
+	font-family: Legend;
+	position: absolute;
+	color: white;
+	font-size: 20px;
+	top: -10px;
+	text-align: left;
+	text-decoration: none;
+}
+
+.text:link {
+	text-decoration: none;
+	color: white;
+}
+.social-container{
+ 	position: absolute;
+ 	top: 30%;
+ 	left: 95% 
+}
+
+ul{
+	position: absolute;
+ 	top: 30%;
+ 	left: 93%;
+}
+
+ul li{
+	list-style: none;
+}
+
+ul li a button{
+	margin-top: 10px;
+	border-radius: 100%;
+	background:transparent;
+	border: 2px solid white;
+	color: #9c6700;
+	
+}
+
+ul li a .fa{
+	transition: 2s;
+	color: white;
+}
+
+ul li a:hover .fa{
+	transform: rotate(360deg);
+}
+.Projects {
+	font-family: Legend;
+	margin-top: 10px;
+	background-color: white;
+	border: 4px solid white;
+	color: #9c6700;
+	position: absolute;
+	top: 15%; 
+	left: 52%;
+	padding: 15px;
+	font-size: 25px;
+	width: 150px;
+	height:100px;
+}
+.About {
+	font-family: Legend;
+	margin-top: 10px;
+	background-color: white;
+	border: 4px solid white;
+	color: #9c6700;
+	position: absolute;
+	top: 15%; 
+	left: 35%;
+	padding: 15px;
+	font-size: 25px;
+	width: 150px;
+	height: 100px;
+}
+
+.Projects:hover{
+	background-color: transparent;
+	border-color: #9c6700;
+}
+
+.About:hover{
+	background-color: transparent;
+	border-color: #9c6700;
+}
+
+.menuIcon{
+	margin-top: 10px;
+	border-radius: 100%;
+	background:transparent;
+	border: 2px; 
+	color: transparent;
+	position: absolute;
+	top: 1%; 
+	left: 95%;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.menuText{
+	position: absolute;
+	left: 92%;
+	top: 2.7%;
+	font-size: 20px;
+	font-family: Legend;
+	color: #9c6700;
+}
+
+.footer {
+	padding-top: 44.5%;
+	padding-left: 43.5%;
+	background-color: transparent;
+	color: white;
+	font-size: 12px;
+}
+
+@font-face{
+	font-family: Legend;
+	src:url('Legend.ttf');
+}
+
+@font-face{
+	font-family: puplfiction;
+	src:url('puplfiction.ttf');
+}
+
+.text3{
+	position: absolute;
+	padding: 150px;
+	color: white;
+	font-size: 15px;
+	top: 10px;
+	left: 365px;
+	text-align: center;
+	width: 560px;
+}
+
+.text3 a{
+	color: #9c6700;
+}
+.background-image1{
+	background-image: url('oja.png'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-color: black;
+	}
+.background-image2{
+	background-image: url('oj5.png'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-color: black;
+}
+.background-image3{
+	background-image: url('oj52.png'); 
+	background-size: cover; 
+	background-repeat: no-repeat; 
+	background-color: black;
+	}
+
+.image{
+	background-image: url('koze.jpg'); 
+	width: 340px;
+	position: absolute;
+	top: 1000px;
+	left: 0px;
+}
+.image2{
+	background-image: url('koze2.jpg'); 
+	width: 340px;
+	position: absolute;
+	top: 1000px;
+	left: 340px;
+}
+.image3{
+	background-image: url('koze3.jpg');
+	width: 340px;
+	position: absolute;
+	top: 1000px;
+	left: 680px;
+}
+.image4{
+	background-image: url('koze4.jpg'); 
+	width: 340px;
+	position: absolute;
+	top: 1000px;
+	left: 1008px;
+}
+.container {
+	background-color: transparent; width: 100%;
+}
+.text-container{
+	position: absolute;
+	padding: 150px;
+	color: white;
+	font-size: 15px;
+	top: 10px;
+	left: 365px;
+	text-align: center;
+	width: 560px;	
+}
+
+.homeLink{
+
+}
